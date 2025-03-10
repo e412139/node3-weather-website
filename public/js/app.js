@@ -1,7 +1,5 @@
 // const { response } = require("express")
 
-console.log('Client side js file is loading!')
-
 // fetch('https://puzzle.mead.io/puzzle').then((res)=>{
 //     res.json().then((d)=>{
 //         console.log(d)
