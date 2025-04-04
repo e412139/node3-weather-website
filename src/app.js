@@ -105,9 +105,6 @@ app.get('*',(req,res) =>{
 // })
 
 //本機連線
-// app.listen(3000, 'localhost', () => {
-//     console.log('Server running on http://localhost:3000');
-//   });
-
-//for Vercel 
-module.exports = app;
+app.listen(3000, 'localhost', () => {
+    console.log('Server running on http://localhost:3000');
+  });
