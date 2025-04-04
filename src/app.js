@@ -100,12 +100,14 @@ app.get('*',(req,res) =>{
 
 
 //設備連線監聽
-app.listen(process.env.PORT || 3000,()=>{
-    console.log('server is up on port 3000.')
-})
+// app.listen(process.env.PORT || 3000,()=>{
+//     console.log('server is up on port 3000.')
+// })
 
 //本機連線
 // app.listen(3000, 'localhost', () => {
 //     console.log('Server running on http://localhost:3000');
 //   });
-  
+
+//for Vercel 
+module.exports = app;
